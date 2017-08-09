@@ -1,0 +1,31 @@
+$c-primary: #379fe7;
+$c-danger: #e53b28;
+$c-warn: #ffa766;
+$c-success: #00bd9b;
+$c-info: #bbcbde;
+$c-white: #fff;
+$c-black: #000;
+$colorMap: (
+  c-primary: $c-primary,
+  c-danger: $c-danger,
+  c-warn:$c-warn,
+  c-success:$c-success,
+  c-info: $c-info,
+  c-white: $c-white,
+  c-black: $c-black,
+);
+$sizeMap: (
+  f-24: 24px,
+  f-20: 20px,
+  f-16: 16px,
+  f-14: 14px,
+  f-12: 12px,
+  f-10: 10px
+);
+
+$disMap: (0, 5, 10, 15, 20, 25, 30, 50);
+
+
+
+
+

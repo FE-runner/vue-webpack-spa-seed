@@ -1,0 +1,52 @@
+@each $key, $value in $colorMap {
+  @each $style in -ft, -bg, -bd {
+    @if $style=='-ft' {
+      .#{$key}#{$style} {
+        color: $value;
+      }
+    }
+    @if $style=='-bg' {
+      .#{$key}#{$style} {
+        background-color: #{$value};
+      }
+    }
+    @if $style=='-bd' {
+      .#{$key}#{$style} {
+        border-color: $value;
+      }
+    }
+  }
+}
+
+@each $key, $value in $sizeMap {
+  .#{$key} {
+    font-size: $value;
+  }
+}
+
+@each $item in $disMap {
+  .ml-#{$item} {
+    margin-left: #{$item}px;
+  }
+  .mr-#{$item} {
+    margin-right: #{$item}px;
+  }
+  .mt-#{$item} {
+    margin-top: #{$item}px;
+  }
+  .mb-#{$item} {
+    margin-bottom: #{$item}px;
+  }
+  .pl-#{$item} {
+    padding-left: #{$item}px;
+  }
+  .pr-#{$item} {
+    padding-right: #{$item}px;
+  }
+  .pt-#{$item} {
+    padding-top: #{$item}px;
+  }
+  .pb-#{$item} {
+    padding-bottom: #{$item}px;
+  }
+}
