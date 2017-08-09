@@ -1,4 +1,4 @@
-# 20170720-vue-webpack
+# vue-webpack-spa-seed
 
 > A Vue.js project
 
